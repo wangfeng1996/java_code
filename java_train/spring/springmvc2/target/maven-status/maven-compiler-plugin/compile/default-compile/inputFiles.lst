@@ -1,0 +1,14 @@
+/Users/wangfeng/WorkSpace/02_IdeaProjects/java_train/spring/springmvc2/src/main/java/cn/ymxdy/config/JdbcConfig.java
+/Users/wangfeng/WorkSpace/02_IdeaProjects/java_train/spring/springmvc2/src/main/java/cn/ymxdy/utils/BaseResponse.java
+/Users/wangfeng/WorkSpace/02_IdeaProjects/java_train/spring/springmvc2/src/main/java/cn/ymxdy/exception/ExceptionHandlerAdvice.java
+/Users/wangfeng/WorkSpace/02_IdeaProjects/java_train/spring/springmvc2/src/main/java/cn/ymxdy/config/AccessInterceptor.java
+/Users/wangfeng/WorkSpace/02_IdeaProjects/java_train/spring/springmvc2/src/main/java/cn/ymxdy/dao/PassengerDao.java
+/Users/wangfeng/WorkSpace/02_IdeaProjects/java_train/spring/springmvc2/src/main/java/cn/ymxdy/config/SpringMvcConfig.java
+/Users/wangfeng/WorkSpace/02_IdeaProjects/java_train/spring/springmvc2/src/main/java/cn/ymxdy/config/SpringConfig.java
+/Users/wangfeng/WorkSpace/02_IdeaProjects/java_train/spring/springmvc2/src/main/java/cn/ymxdy/config/MybatisConfig.java
+/Users/wangfeng/WorkSpace/02_IdeaProjects/java_train/spring/springmvc2/src/main/java/cn/ymxdy/utils/ResponseCode.java
+/Users/wangfeng/WorkSpace/02_IdeaProjects/java_train/spring/springmvc2/src/main/java/cn/ymxdy/service/impl/PassengerServiceImpl.java
+/Users/wangfeng/WorkSpace/02_IdeaProjects/java_train/spring/springmvc2/src/main/java/cn/ymxdy/pojo/Passenger.java
+/Users/wangfeng/WorkSpace/02_IdeaProjects/java_train/spring/springmvc2/src/main/java/cn/ymxdy/config/ServletInit.java
+/Users/wangfeng/WorkSpace/02_IdeaProjects/java_train/spring/springmvc2/src/main/java/cn/ymxdy/controller/PassengerController.java
+/Users/wangfeng/WorkSpace/02_IdeaProjects/java_train/spring/springmvc2/src/main/java/cn/ymxdy/service/PassengerSevice.java

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.ymxdy.dao.PassengerDao">
+
+
+    <!--    添加-->
+    <insert id="addPass" useGeneratedKeys="true">
+        insert into tbl_passenger(name, cardId, source, vaccinated, necleicAcidResult48)
+        values (#{name}, #{cardId}, #{source}, #{vaccinated}, #{necleicAcidResult48})
+    </insert>
+
+    <update id="updatePass">
+        update tbl_passenger
+        <set>
+            <if test="name!= null">
+                name=#{name},
+            </if>
+            <if test="cardId!= null">
+                cardId=#{cardId},
+            </if>
+            <if test="source!= null">
+                source=#{source},
+            </if>
+            <if test="vaccinated!= null">
+               vaccinated=#{vaccinated},
+            </if>
+            <if test="necleicAcidResult48!= null">
+                necleicAcidResult48=#{necleicAcidResult48}
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+    <!--    删除-->
+    <delete id="del">
+        delete
+        from tbl_passenger
+        where id = #{id}
+    </delete>
+    <!-- 查询-->
+    <select id="selectAll" resultType="cn.ymxdy.pojo.Passenger">
+        select id, name, cardId, source, vaccinated, necleicAcidResult48
+        from tbl_passenger;
+    </select>
+</mapper>
