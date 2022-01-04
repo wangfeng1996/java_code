@@ -30,6 +30,7 @@ public class AccessInterceptor implements HandlerInterceptor {
                     "    \"code\": 200010,\n" +
                     "    \"message\": \"当前用户未配置权限，无法登录！请联系管理员！\"\n" +
                     "}");
+            //1234
             return false;
         }
     }
